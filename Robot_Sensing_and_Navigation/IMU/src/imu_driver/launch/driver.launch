@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="port"/>
+
+
+    <node pkg="imu_driver" type="euler_to_quaternion_server.py" name="euler_to_quaternion_server" output="screen">
+        
+    </node>
+    
+    <node pkg="imu_driver" type="driver.py" name="imu_client" args='$(arg port)' output="screen">        
+        
+    </node>
+
+    
+
+</launch>

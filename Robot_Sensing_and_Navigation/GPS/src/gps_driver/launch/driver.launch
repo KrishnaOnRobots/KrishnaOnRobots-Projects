@@ -1,0 +1,6 @@
+<launch>
+    <arg name="port" default="/dev/ttyUSB0" />
+    <node pkg="gps_driver" name="gps_driver" type="driver.py" >
+        <param name="port" value="$(arg port)" />
+  </node>
+</launch>

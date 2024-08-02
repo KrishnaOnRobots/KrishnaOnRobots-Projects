@@ -1,7 +1,7 @@
 
 My Portfolio
 
-Welcome to my portfolio! This repository contains projects I have worked on during my master's degree in robotics.
+Welcome to my portfolio! This repository contains projects I have worked on during my master's degree in robotics @ Northeastern University, Boston.
 
 Coursework Projects
 
